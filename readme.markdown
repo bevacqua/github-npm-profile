@@ -49,7 +49,7 @@ logs:
 # web
 
 ```shell
-curl http://github-npm-profile.herokuapp.com/kittens
+curl https://github-npm-profile.herokuapp.com/kittens
 ```
 
 response:
