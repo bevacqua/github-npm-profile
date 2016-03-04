@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const getProfile = require('./');
+const input = process.argv[2];
+
+getProfile(input).then(user => console.log(user))

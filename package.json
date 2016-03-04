@@ -1,0 +1,23 @@
+{
+  "name": "github-npm-profile",
+  "version": "1.0.0",
+  "description": "Infer a GitHub user's npm profile",
+  "main": "index.js",
+  "bin": "cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevacqua/github-npm-profile.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (https://ponyfoo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/github-npm-profile/issues"
+  },
+  "homepage": "https://github.com/bevacqua/github-npm-profile#readme",
+  "dependencies": {
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "find-npm-by-github": "1.0.1",
+    "npm-user": "2.1.0"
+  }
+}
